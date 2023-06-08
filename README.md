@@ -12,3 +12,5 @@
 * git push -u origin main
 * git remote remove origin
 * git status
+* git chechout -b <nombre-de-la-rama
+>
