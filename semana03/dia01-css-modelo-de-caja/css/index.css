@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,400;1,700&display=swap');
+
+:root {
+  /*FONTS */
+  --font-primary: 'Raleway', sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+  --font-size: 14px; 
+  --font-weight-regular: 400; 
+  --font-weight-bold: 700; 
+
+  /* COLORS */
+  --primary-dark-blue-into: hsl(217, 28%, 15%);
+  --primary-dark-blue-main: hsl(218, 28%, 13%);
+  --primary-dark-blue-footer: hsl(216, 53%, 9%);
+  --primary-dark-blue-testimonials: hsl(219, 30%, 18%);
+
+  --acent-cyan-gradient: hsl(176, 68%, 64%);
+  --acent-blue-gradient: hsl(198, 60%, 50%);
+  --acent-light-red: hsl(0, 100%, 63%);
+
+  --neutral-white: hsl(0, 0%, 100%); 
+}
+
+* {
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--primary-dark-blue-into);
+    font-size: var(--font-size);
+    color: var(--neutral-white);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: min(100% - 3rem; 1440px);
+    margin: 0 auto;
+}
+
+.header {
+    font-family: var(--font-primary);
+    /*border: 1px solid red; */
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav {
+    list-style: none;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    gap: 2rem; /* 1rem = 14px */
+}
+
